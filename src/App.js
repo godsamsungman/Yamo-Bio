@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import pic from './pic.png';
+import logoo from './logoo.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={pic} className="App-pic" alt="pic" />
+        <h1>
+          Yamo Lee
+        </h1>
         <p>
-          Welcome to my Homepage!
+        My name is Yamo.<br/>I am a professional working in<br/> Supply Chain Consulting field who is interested in<br/> making career transition into<br/> Front-End Web Development.
         </p>
-        <a
+
+        <p className="link">
+          Click <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/seungwoo-peter-lee-1775981a6/?originalSubdomain=ca"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        > <img src ={logoo} className="App-logoo" alt ="linkedin"></img>
+          </a> to Connect<br/> 
+        </p>
       </header>
+
+
     </div>
   );
 }
