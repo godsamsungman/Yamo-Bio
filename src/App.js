@@ -23,8 +23,20 @@ function App() {
         > <img src ={logoo} className="App-logoo" alt ="linkedin"></img>
           </a> to Connect<br/> 
         </p>
-      </header>
+        <p>
+          </p> 
 
+        
+
+        
+      </header>
+      
+        <body>
+          <form>
+            <input type="text" placeholder="Search anything!" />
+            <button type="submit">Search</button>
+          </form>
+        </body>
 
     </div>
   );
