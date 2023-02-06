@@ -50,8 +50,8 @@ input[type="text"] {
 
 button[type="submit"] {
   padding: 4px;
-  background-color: lightgray;
-  border: none;
+  background-color: white;
+  border: 1px solid blue;
   border-radius: 6px;
   color: grey;
   cursor: pointer;
