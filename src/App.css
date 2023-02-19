@@ -11,14 +11,12 @@
   pointer-events: none;
   position: relative;
   display: inline-block;
-  margin-right: -40px;
   align-items: center;
   justify-content: center;
 }
 
 .App-header {
   background-color: blue;
-  height: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,16 +39,9 @@ h2 {
   font-size: 20px;
 }
 
-.container {
-  display: flex;
-}
-
 .idCard {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-
-.nameHeader {
-  padding-top: 60px;
 }
